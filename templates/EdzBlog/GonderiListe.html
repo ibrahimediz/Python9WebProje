@@ -1,0 +1,9 @@
+{% extends '../base.html'%}
+{% block content %}
+{% block abuzer %} Blog Sayfası {% endblock %}
+{% for gonderi in gonderiler %}
+<h1>{{gonderi.baslik}}</h1>
+<p>{{gonderi.yazi}}</p>
+{% endfor %}
+
+{% endblock %}

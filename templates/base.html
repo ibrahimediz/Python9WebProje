@@ -1,0 +1,17 @@
+{% load static %}
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'EdzBlog/Benim.css' %}">
+<title> {% block abuzer %}Ana Sayfa {% endblock %} </title>
+</head>
+<body>
+<div class="banner"> 
+<h1> Merhaba </h1>
+<p> Bu benim ilk Sayfam </p>
+
+<img src="{% static 'deneme.png'%}"/>
+</div>
+{% block content %}
+{% endblock %}
+</body>
+</html>
